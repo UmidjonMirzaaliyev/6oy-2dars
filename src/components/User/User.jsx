@@ -8,7 +8,7 @@ function User() {
        {
         data.length && data.map((el, index) =>{
             return (
-                <div className="cart">
+                <div key={index} className="cart">
                     <img src={el.image} alt="image" />
                     <h2>{el.firstName + " " + el.lastName}</h2>
                     <span className='address'>

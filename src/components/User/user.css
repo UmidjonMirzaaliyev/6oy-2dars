@@ -1,0 +1,41 @@
+.user{
+    font-family: sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cart{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+
+.cart img{
+    width: 300px;
+    margin-left: 50px;
+}
+
+.cart h2{
+    margin-left: 100px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+}
+
+.location{
+    background-color: red;
+}
+
+.location p{
+    margin-left: 35px;  
+}
+
+.car{
+    margin-left: 30px;
+}
